@@ -161,7 +161,7 @@ function pokemonLabel(name, disappear_time, id, latitude, longitude) {
             Disappears at ${pad(disappear_date.getHours())}:${pad(disappear_date.getMinutes())}:${pad(disappear_date.getSeconds())}
             <span class='label-countdown' disappears-at='${disappear_time}'>(00m00s)</span></div>
         <div>
-            <a href='https://www.google.com/maps/dir/Current+Location/${latitude},${longitude}'
+            <a href='https://www.google.com/maps/dir/Votre+position/${latitude},${longitude}'
                     target='_blank' title='View in Maps'>Get directions</a>
         </div>`;
     return contentstring;
